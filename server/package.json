@@ -1,0 +1,12 @@
+{
+  "name": "skyfly-server-ticket",
+  "version": "1.0.0",
+  "description": "hello then i wanna up to date it",
+  "main": "index.js",
+  "repository": "https://github.com/coddermoon/skyfly-tickets/server",
+  "author": "Mahamodul Hasan Moon , Mukta Raqni Das , Fatema Summenur",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
