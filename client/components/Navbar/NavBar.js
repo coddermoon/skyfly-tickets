@@ -15,7 +15,7 @@ const NavBar = () => {
                     title="Company"
                     className="inline-flex items-center"
                 >
-                    <Image src='/assets/images/logo3.png' height={60} width={60} alt='logo'></Image>
+                    <Image src='/assets/images/logo2.png' height={60} width={60} alt='logo'></Image>
                     <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Skyfly Tickets
                     </span>
