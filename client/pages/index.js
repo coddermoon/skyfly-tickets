@@ -1,5 +1,8 @@
 import Head from 'next/head'
+
+import NavBar from '../components/Navbar/NavBar'
 import Slider from '../components/Slider'
+
 
 
 export default function Home() {
@@ -13,8 +16,10 @@ export default function Home() {
       </Head>
 
       <main>
-      
-      <Slider/>
+        <NavBar />
+
+        <Slider />
+
 
       </main>
     </>
