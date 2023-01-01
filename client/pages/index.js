@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NavBar from '../components/Navbar/NavBar'
 
 
 export default function Home() {
@@ -12,8 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        hello world  sir
-        <p>hello world</p>
+        <NavBar />
       </main>
     </>
   )
