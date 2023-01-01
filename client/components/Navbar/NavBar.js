@@ -120,7 +120,7 @@ const NavBar = () => {
                                             <Link href=''>Contact</Link>
                                         </li>
                                         <li>
-                                            <Link href='/signup'>Sign in</Link>
+                                            <Link href='/signin'>Sign in</Link>
                                         </li>
                                         <li>
                                             <a href="#_" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-pink-700 rounded-xl group">
