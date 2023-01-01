@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Slider from '../components/Slider'
 
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
       </Head>
 
       <main>
-        hello world  sir
-        <p>hello world</p>
+      
+      <Slider/>
+
       </main>
     </>
   )
