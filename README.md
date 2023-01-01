@@ -16,5 +16,5 @@
 
 ## Technologies :
 
-### frontend : Nextjs , Tailwind css 
+### frontend : Nextjs , Tailwind css ,Daysiul
 ### Backend : Exopress ,MongoDB , NodeJS
