@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 
@@ -32,57 +33,31 @@ const NavBar = () => {
                         Skyfly
                     </span>
                 </a>
-                <ul class="flex items-center hidden space-x-8 lg:flex">
+                <ul class="flex items-center hidden space-x-8 lg:flex text-xl text-gray-900 text-semibold">
                     <li>
-                        <a
-                            href="/"
-                            aria-label="Our product"
-                            title="Our product"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                            Product
-                        </a>
+                        <Link href=''>Home</Link>
                     </li>
                     <li>
-                        <a
-                            href="/"
-                            aria-label="Our product"
-                            title="Our product"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                            Features
-                        </a>
+                        <Link href=''>Destination</Link>
                     </li>
                     <li>
-                        <a
-                            href="/"
-                            aria-label="Product pricing"
-                            title="Product pricing"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                            Pricing
-                        </a>
+                        <Link href=''>Rooms</Link>
                     </li>
                     <li>
-                        <a
-                            href="/"
-                            aria-label="About us"
-                            title="About us"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                            About us
-                        </a>
+                        <Link href=''>Contact</Link>
                     </li>
                 </ul>
                 <ul class="flex items-center hidden space-x-8 lg:flex">
+                    <li className="text-xl text-gray-900 text-semibold">
+                        <Link href=''>Sign in</Link>
+                    </li>
                     <li>
-                        <a
-                            href="/"
-                            class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                            aria-label="Sign up"
-                            title="Sign up"
-                        >
-                            Sign up
+                        <a href="#_" class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                            <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4">
+                                <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                            </span>
+                            <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+                            <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Button Text</span>
                         </a>
                     </li>
                 </ul>
@@ -156,55 +131,32 @@ const NavBar = () => {
                                     </div>
                                 </div>
                                 <nav>
-                                    <ul class="space-y-4">
+                                    <ul class="space-y-4 text-xl text-gray-900 text-semibold">
                                         <li>
-                                            <a
-                                                href="/"
-                                                aria-label="Our product"
-                                                title="Our product"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                Product
-                                            </a>
+                                            <Link href=''>Home</Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="/"
-                                                aria-label="Our product"
-                                                title="Our product"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                Features
-                                            </a>
+                                            <Link href=''>Destination</Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="/"
-                                                aria-label="Product pricing"
-                                                title="Product pricing"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                Pricing
-                                            </a>
+                                            <Link href=''>Rooms</Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="/"
-                                                aria-label="About us"
-                                                title="About us"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                About us
-                                            </a>
+                                            <Link href=''>Contact</Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="/"
-                                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                                                aria-label="Sign up"
-                                                title="Sign up"
-                                            >
-                                                Sign up
+                                            <Link href=''>Contact</Link>
+                                        </li>
+                                        <li>
+                                            <Link href=''>Sign in</Link>
+                                        </li>
+                                        <li>
+                                            <a href="#_" class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                                                <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4">
+                                                    <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                                                </span>
+                                                <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+                                                <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Button Text</span>
                                             </a>
                                         </li>
                                     </ul>
