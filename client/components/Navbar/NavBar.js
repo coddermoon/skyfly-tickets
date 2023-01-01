@@ -113,7 +113,7 @@ const NavBar = () => {
                                             <Link href=''>Destination</Link>
                                         </li>
                                         <li>
-                                            <Link href=''>Rooms</Link>
+                                            <Link href='/rooms'>Rooms</Link>
                                         </li>
 
                                         <li>
