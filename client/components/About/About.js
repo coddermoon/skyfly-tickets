@@ -29,7 +29,7 @@ const About = () => {
             enim deserunt dignissimos sunt necessitatibus! Consectetur doloribus
             harum quis fugit blanditiis. Lorem ipsum dolor sit, amet consectetur
             adipisicing elit. Veritatis, aliquid cum reprehenderit pariatur
-            soluta exercitationem. Cupiditate, maiores.
+            soluta exercitationem. Cupiditate, maiores.....
           </p>
 
           <a
