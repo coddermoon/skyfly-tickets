@@ -1,9 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head";
+import About from "../components/About/About";
 
-import NavBar from '../components/Navbar/NavBar'
-import Slider from '../components/Slider'
-
-
+import NavBar from "../components/Navbar/NavBar";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -20,8 +19,8 @@ export default function Home() {
 
         <Slider />
 
-
+        <About></About>
       </main>
     </>
-  )
+  );
 }
