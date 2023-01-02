@@ -15,7 +15,7 @@ const NavBar = () => {
                     title="Company"
                     className="inline-flex items-center"
                 >
-                    <Image src='/assets/images/logo2.png' height={60} width={60} alt='logo'></Image>
+                    <Image src='/assets/images/logo3.png' height={60} width={60} alt='logo'></Image>
                     <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Skyfly Tickets
                     </span>
@@ -25,7 +25,7 @@ const NavBar = () => {
                         <Link href=''>Home</Link>
                     </li>
                     <li>
-                        <Link href=''>Destination</Link>
+                        <Link href='/#destination'>Destination</Link>
                     </li>
                     <li>
                         <Link href=''>Rooms</Link>
@@ -36,7 +36,7 @@ const NavBar = () => {
                 </ul>
                 <ul className="flex items-center hidden space-x-8 lg:flex">
                     <li className="text-xl text-gray-900">
-                        <Link href=''>Sign in</Link>
+                        <Link href='/login'>Sign in</Link>
                     </li>
                     <li>
                         <Link href="/signup" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-pink-700 rounded-xl group">
