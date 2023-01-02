@@ -25,7 +25,7 @@ const NavBar = () => {
                         <Link href=''>Home</Link>
                     </li>
                     <li>
-                        <Link href=''>Destination</Link>
+                        <Link href='/#destination'>Destination</Link>
                     </li>
                     <li>
                         <Link href=''>Rooms</Link>
@@ -36,7 +36,7 @@ const NavBar = () => {
                 </ul>
                 <ul className="flex items-center hidden space-x-8 lg:flex">
                     <li className="text-xl text-gray-900">
-                        <Link href=''>Sign in</Link>
+                        <Link href='/login'>Sign in</Link>
                     </li>
                     <li>
                         <Link href="/signup" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-pink-700 rounded-xl group">

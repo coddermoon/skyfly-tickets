@@ -3,13 +3,13 @@ import React from 'react';
 
 const Destinatition = () => {
     return (
-        <div className='my-7 px-5'>
+        <div id="destination" className='my-7 px-5'>
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                 {/* div1 */}
                 <div className='flex flex-col items-left space-y-7 mt-0 md:mt-60'>
                     <p className='text-pink-700 text-xl font-semibold'>Popular Destination</p>
-                    <h1 className='text-2xl text-gray-800 font-bold md:text-5xl'>Choose your country</h1>
+                    <h1 className='text-2xl text-gray-800 font-bold md:text-5xl'>Choose Your Country</h1>
 
                     <p className='text-xl text-gray-800 font-medium'>Travelers are always looking for inspiration to guide their adventures. Coming up with a list of places to visit can be challenging when you're staring at a globe. What are the top tourist attractions in the world? The most iconic sites that all travelers have on their bucket-list of things to see around the globe?If you're looking to start your own checklist of places to visit during your life, begin with Skyfly for the top tourist attractions in the world.</p>
 
