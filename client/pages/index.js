@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import NavBar from '../components/Navbar/NavBar'
 import Slider from '../components/Slider'
+import Destinatition from './destinatition'
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
         <NavBar />
 
         <Slider />
+        <Destinatition />
 
 
       </main>
