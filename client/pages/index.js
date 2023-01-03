@@ -1,12 +1,11 @@
 
 import Head from 'next/head'
 
-import NavBar from '../components/Navbar/NavBar'
-import Slider from '../components/Slider'
+
+
 import Destinatition from './destinatition'
 
 
-import Head from "next/head";
 import About from "../components/About/About";
 
 
@@ -28,9 +27,10 @@ export default function Home() {
         <NavBar />
 
         <Slider />
-        <Destinatition />
 
         <About></About>
+        <Destinatition />
+
       </main>
     </>
   );
