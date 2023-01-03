@@ -1,16 +1,10 @@
 
 import Head from 'next/head'
-
-
-
 import Destinatition from './destinatition'
-
-
 import About from "../components/About/About";
-
-
 import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider";
+import Rooms from './rooms';
 
 export default function Home() {
   return (
@@ -25,11 +19,10 @@ export default function Home() {
 
       <main>
         <NavBar />
-
         <Slider />
-
         <About></About>
         <Destinatition />
+        <Rooms />
 
       </main>
     </>
