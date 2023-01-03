@@ -18,22 +18,20 @@ const About = () => {
           ></Image>
         </div>
         <div className="w-1/2 ml-24">
-          <p className="text-red-600 font-bold w-3/4	mb-6  py-4">About Us</p>
-          <h1 className="text-5xl font-bold mb-6">
-            <span className="mb-6">A Best Place</span> <br />
-            <span className="mb-6"> to enjoy</span>
+          <p className="text-red-600 font-bold w-3/4	mb-4  py-4">About Us</p>
+          <h1 className="text-5xl font-bold mb-4">
+            <span className="mb-4">A Best Place</span> <br />
+            <span className="mb-4"> to enjoy</span>
           </h1>
-          <p className="py-6 w-3/4	mb-6">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
+          <p className="py-6 w-3/4 mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            minima in sint distinctio sit! Amet corrupti tempora neque quaerat
+            enim deserunt dignissimos sunt necessitatibus! Consectetur doloribus
+            harum quis fugit blanditiis. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Veritatis, aliquid cum reprehenderit pariatur
+            soluta exercitationem. Cupiditate, maiores.
           </p>
-          <p className="py-4 w-3/4	mb-6">
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
-          </p>
+
           <a href="#_" class="relative inline-block text-lg group">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
               <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
