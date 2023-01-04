@@ -3,6 +3,7 @@ import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider";
 import Destinatition from "./destinatition";
 import About from "../components/About/About";
+import Video from "../components/Video/Video";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Slider />
         <About></About>
         <Destinatition />
+        <Video></Video>
       </main>
     </>
   );
