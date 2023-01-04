@@ -6,7 +6,6 @@ import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider";
 import Destinatition from "./destinatition";
 
-
 export default function Home() {
   return (
     <>
@@ -29,6 +28,7 @@ export default function Home() {
         <About></About>
         <Destinatition />
 
+        <Video></Video>
 
       </main>
     </>
