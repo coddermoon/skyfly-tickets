@@ -1,35 +1,29 @@
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="hero my-44 pb-20">
+    <div className="hero my-20 pb-20">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="w-1/2	 relative">
-          <Image
-            src="/assets/images/2.jpg"
-            height={300}
-            width={400}
-            className=" "
-          ></Image>
-          <Image
+        <div className="w-3/5	 relative">
+          <img src="/assets/images/2.jpg" alt="" className="w-4/5   h-full " />
+          <img
             src="/assets/images/1.jpg"
-            height={300}
-            width={400}
-            className="absolute left-48 -top-20 "
-          ></Image>
+            alt=""
+            className="absolute  w-3/4 -right-8 -top-16	"
+          />
         </div>
-        <div className="w-1/2 ml-24">
-          <p className="text-red-600 font-bold w-3/4	mb-4  py-4">About Us</p>
-          <h1 className="text-5xl font-bold mb-4">
-            <span className="mb-4">A Best Place</span> <br />
-            <span className="mb-4"> to enjoy</span>
+        <div className="w-2/5	 ml-32 my-32 ">
+          <p className="text-pink-600 font-bold py-4 ">About Us</p>
+          <h1 className="text-5xl font-bold my-6">
+            <span className=""> A Best Place</span> <br /> <span>to Enjoy</span>
           </h1>
-          <p className="py-6 w-3/4 mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            minima in sint distinctio sit! Amet corrupti tempora neque quaerat
-            enim deserunt dignissimos sunt necessitatibus! Consectetur doloribus
-            harum quis fugit blanditiis. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Veritatis, aliquid cum reprehenderit pariatur
-            soluta exercitationem. Cupiditate, maiores.....
+          <p className="py-6 w-9/12	 mb-6  text-xl text-gray-800 font-medium	">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quasi
+            quos animi quia sit, iure repndae dolorem cupiditate vel suscipit
+            repellendus? Distinctio ab error officiis aut suscipit! Impedit,
+
+            dicta architecto....
+
+
           </p>
 
           <a
@@ -41,7 +35,7 @@ const About = () => {
             </span>
             <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-pink-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
             <span className="relative w-full text-left text-white text-xl transition-colors duration-200 ease-in-out group-hover:text-white">
-              More About us
+              Get Started
             </span>
           </a>
         </div>
