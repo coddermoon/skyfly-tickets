@@ -4,6 +4,7 @@ import Head from 'next/head'
 import About from "../components/About/About";
 import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider";
+import Video from '../components/Video/Video';
 import Destinatition from "./destinatition";
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
         <About></About>
         <Destinatition />
 
-        <Video></Video>
+       <Video/>
 
       </main>
     </>
