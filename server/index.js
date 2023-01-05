@@ -1,13 +1,38 @@
 const express = require('express');
-const cors = require('cors')
 require('dotenv').config()
+const cors = require('cors');
+const {} = require('./routes/routes');
+const router = require('./routes/routes');
+const mongoose = require("mongoose");
+
 const port = process.env.PORT ||5000
 
-// make an  express  app 
+// create  an  express  app 
 
-const app = express();
+const app = express()
+app.use(express.json())
+app.use(cors())
 
 
+
+// connection with mongodb server
+mongoose.set('strictQuery', false);
+mongoose.connect(process.env.MONGO_URI , {
+    dbName: `skyFly`,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+ 
+
+  })
+.then(()=>{
+    console.log('database connection successful')
+})
+.catch(err => console.error(err.message))
+
+
+// call all routyer
+
+app.use("/", router);
 
 
 
