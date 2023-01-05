@@ -17,16 +17,14 @@
         "id": 3,
         "category": "classic",
         "name": "Classic Bed",
-        "description": "https://img.freepik.com/free-psd/modern-bedroom-interior_176382-1466.jpg?size=338&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
-        "img": " ",
+        "img": "https://img.freepik.com/free-psd/modern-bedroom-interior_176382-1466.jpg?size=338&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
         "price": 130
     },
     {
         "id": 4,
         "category": "luxury",
         "name": "Luxury Bed",
-        "description": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?size=626&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
-        "img": " ",
+        "img": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?size=626&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
         "price": 250
     },
     {
@@ -40,8 +38,7 @@
         "id": 6,
         "category": "luxury",
         "name": "Luxury Bed",
-        "description": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel_105762-2164.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
-        "img": " ",
+        "img": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel_105762-2164.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
         "price": 450
     },
     {
