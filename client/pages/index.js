@@ -2,9 +2,12 @@
 
 import Head from 'next/head'
 import About from "../components/About/About";
+import Footer from '../components/Footer/Footer';
 import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider";
+import Subcribe from '../components/Subscribe/Subcribe';
 import Video from '../components/Video/Video';
+
 import Destinatition from "./destinatition";
 
 
