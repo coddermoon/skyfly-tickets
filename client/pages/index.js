@@ -7,6 +7,7 @@ import Slider from "../components/Slider";
 import Video from '../components/Video/Video';
 import Destinatition from "./destinatition";
 
+
 export default function Home() {
   return (
     <>
@@ -29,7 +30,9 @@ export default function Home() {
         <About></About>
         <Destinatition />
 
-       <Video/>
+        <Video></Video>
+        <Subcribe></Subcribe>
+        <Footer></Footer>
 
       </main>
     </>
