@@ -20,7 +20,10 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quasi
             quos animi quia sit, iure repndae dolorem cupiditate vel suscipit
             repellendus? Distinctio ab error officiis aut suscipit! Impedit,
+
             dicta architecto....
+
+
           </p>
 
           <a
