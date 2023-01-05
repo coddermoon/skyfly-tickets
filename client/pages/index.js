@@ -19,7 +19,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <NavBar />
         <Slider />
         <About></About>
         <Destinatition />
