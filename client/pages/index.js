@@ -8,7 +8,7 @@ import Subcribe from '../components/Subscribe/Subcribe';
 import Video from '../components/Video/Video';
 import Destinatition from "./destinatition";
 import Rooms from './rooms'
-import Booking from '../components/Booking/Booking'
+
 
 
 
@@ -29,7 +29,7 @@ export default function Home() {
       <main>
         <NavBar />
         <Slider />
-        <Booking />
+
         <About></About>
         <Destinatition />
         <Rooms />
