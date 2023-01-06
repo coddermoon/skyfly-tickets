@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Slider = () => {
+
     return (
         <div className='container mx-auto mt-16'>
 
@@ -36,8 +37,11 @@ const Slider = () => {
                 </div>
             </div>
 
+
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Slider;
