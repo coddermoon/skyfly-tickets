@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "category": "classic",
+        "name": "Classic Bed",
+        "img": "https://img.freepik.com/free-psd/front-view-room-with-bed-modern-wooden-night-tables-mockup_176382-1965.jpg?size=338&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
+        "price": 123
+    },
+    {
+        "id": 2,
+        "category": "classic",
+        "name": "Classic Bed",
+        "img": "https://img.freepik.com/free-photo/white-pillow-bed_74190-2473.jpg?size=626&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
+        "price": 120
+    },
+    {
+        "id": 3,
+        "category": "classic",
+        "name": "Classic Bed",
+        "img": "https://img.freepik.com/free-psd/modern-bedroom-interior_176382-1466.jpg?size=338&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
+        "price": 130
+    },
+    {
+        "id": 4,
+        "category": "luxury",
+        "name": "Luxury Bed",
+        "img": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?size=626&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
+        "price": 250
+    },
+    {
+        "id": 5,
+        "category": "luxury",
+        "name": "Luxury Bed",
+        "img": "https://img.freepik.com/free-photo/modern-luxury-bedroom-suite-bathroom_105762-1791.jpg?size=626&ext=jpg&ga=GA1.1.821203553.1657130385&semt=sph",
+        "price": 300
+    },
+    {
+        "id": 6,
+        "category": "luxury",
+        "name": "Luxury Bed",
+        "img": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel_105762-2164.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
+        "price": 450
+    },
+    {
+        "id": 7,
+        "category": "double",
+        "name": "Double Bed",
+        "img": "https://img.freepik.com/free-vector/bedroom-interior-home-hotel-empty-apartment_1441-3636.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
+        "price": 200
+    },
+    {
+        "id": 8,
+        "category": "double",
+        "name": "Double Bed",
+        "img": "https://img.freepik.com/free-psd/realistic-modern-double-bedroom-with-furniture-frame_176382-442.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
+        "price": 170
+    },
+    {
+        "id": 9,
+        "category": "double",
+        "name": "Double Bed",
+        "img": "https://img.freepik.com/free-psd/modern-bedroom-hotel-room-with-double-bed-elegant-furniture_176382-208.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
+        "price": 180
+    },
+    {
+        "id": 10,
+        "category": "single",
+        "name": "Single Bed",
+        "img": "https://img.freepik.com/free-psd/realistic-modern-double-bedroom-with-furniture-frame_176382-434.jpg?size=338&ext=jpg&ga=GA1.2.821203553.1657130385&semt=sph",
+        "price": 100
+    },
+    {
+        "id": 11,
+        "category": "single",
+        "name": "Single Bed",
+        "img": "https://img.freepik.com/free-psd/realistic-bright-modern-double-bedroom-with-furniture_176382-438.jpg?size=626&ext=jpg&ga=GA1.1.821203553.1657130385",
+        "price": 100
+    }
+]
