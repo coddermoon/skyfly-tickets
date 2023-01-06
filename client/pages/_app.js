@@ -1,11 +1,15 @@
 import Main from "../components/layouts/Main";
-import UserContext from "../contexts/UserContext";
+import UserContext from "../components/contexts/UserContext";
 import "../styles/globals.css";
+import { Toaster } from "react-hot-toast";
 
 export default function App({ Component, pageProps }) {
   return (
     <UserContext>
-      <Component {...pageProps} />
+      <Main>
+        <Toaster></Toaster>
+        <Component {...pageProps} />
+      </Main>
     </UserContext>
   );
 }

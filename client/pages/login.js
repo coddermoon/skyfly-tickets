@@ -1,12 +1,13 @@
 import { GoogleAuthProvider } from "firebase/auth";
 import Link from "next/link";
 import { useContext } from "react";
-import AuthProvider from "../contexts/UserContext";
+import { toast } from "react-hot-toast";
+import { AuthContext } from "../components/contexts/UserContext";
 
 const login = () => {
 
   const googleProvider = new GoogleAuthProvider();
-  const {google} = useContext(AuthProvider);
+  const {google, setUser} = useContext(AuthContext);
 
   const handleGoogleLogin = () => {
     google(googleProvider)
@@ -14,6 +15,7 @@ const login = () => {
         const user = result.user;
         setUser(user);
         console.log(user);
+        toast.success('Hurray! Your login success!')
       })
       .catch((err) => toast.error(err.message));
   };
