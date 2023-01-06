@@ -1,11 +1,18 @@
-import Head from "next/head";
+
+
+import Head from 'next/head'
+import About from "../components/About/About";
 import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider";
+import Video from '../components/Video/Video';
 import Destinatition from "./destinatition";
+<<<<<<< HEAD
 import About from "../components/About/About";
 import Video from "../components/Video/Video";
 import Subcribe from "../components/Subscribe/Subcribe";
 import Footer from "../components/Footer/Footer";
+=======
+>>>>>>> 83c9aba715c683e2dc2558c03a122ec5a336b5f7
 
 export default function Home() {
   return (
@@ -24,11 +31,19 @@ export default function Home() {
       <main>
         <NavBar />
         <Slider />
+
+
         <About></About>
         <Destinatition />
+<<<<<<< HEAD
         <Video></Video>
         <Subcribe></Subcribe>
         <Footer></Footer>
+=======
+
+       <Video/>
+
+>>>>>>> 83c9aba715c683e2dc2558c03a122ec5a336b5f7
       </main>
     </>
   );
