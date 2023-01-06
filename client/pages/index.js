@@ -7,6 +7,7 @@ import Slider from "../components/Slider";
 import Subcribe from '../components/Subscribe/Subcribe';
 import Video from '../components/Video/Video';
 import Destinatition from "./destinatition";
+import Rooms from './rooms'
 
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <main>
         <NavBar />
         <Slider />
+
         <About></About>
         <Destinatition />
         <Rooms />
