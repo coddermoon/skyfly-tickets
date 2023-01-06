@@ -1,12 +1,10 @@
 import Link from "next/link";
 import { useContext, useState } from "react";
 import Image from "next/image";
-import { AuthContext } from "../contexts/UserContext";
 
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const {user } = useContext(AuthContext)
 
     return (
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-0">
