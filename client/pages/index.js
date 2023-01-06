@@ -34,7 +34,8 @@ export default function Home() {
         <Rooms />
         <Video></Video>
         <Subcribe></Subcribe>
-        <Footer></Footer>
+     
+       
       </main>
     </>
   );
